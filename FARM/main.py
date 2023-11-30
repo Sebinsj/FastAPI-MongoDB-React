@@ -14,3 +14,5 @@ app.add_middleware(CORSMiddleware,
 @app.get("/")
 def read_root():
     return{"ping":"pong"}
+
+
