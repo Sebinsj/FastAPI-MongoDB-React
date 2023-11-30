@@ -11,6 +11,4 @@ app.add_middleware(CORSMiddleware,
                    allow_methods=["*"],
                    allow_headers=["*"],
                    )
-@app.get("/")
-def read_root():
-    return("ping pong")
+@app.get()
